@@ -1,0 +1,29 @@
+[global_config]
+  broadcast_default = off
+  dbus = False
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
+[keybindings]
+  close_window = <Primary>w
+  copy = <Control>c
+  paste = <Control>v
+  resize_down = None
+  resize_left = <Primary><Shift>Page_Down
+  resize_right = <Primary><Shift>Page_Up
+  split_horiz = <Primary><Shift>Down
+  split_vert = <Primary><Shift>Right
+  zoom_in = <Primary>equal
+  zoom_out = <Primary>minus
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#afafaf"
+    scrollback_infinite = True
