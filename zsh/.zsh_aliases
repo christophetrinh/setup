@@ -13,6 +13,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+source $ZSH_CUSTOM/plugins/zsh-autoswitch-conda/autoswitch_conda.plugin.zsh
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
